@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+:root{
+    --primary-body-color:#831843;
+    --primary-font-color:#f9a8d4;
+}
+
+body{
+    background-color: var(--primary-body-color);
+    color: var(--primary-font-color);
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+}
+
+h2{
+    border: 5px solid var(--primary-font-color);
+    padding: 1rem;
+    width: 30vw;
+    margin: auto;
+}
+/* header */
+header{
+    background-color: var(--primary-font-color);
+    color: var(--primary-body-color);
+}
+
+.heading{
+    margin: 0;
+    padding: 1.5rem 0 0 1rem;    
+}
+nav{
+   text-align: right;   
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 1rem 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--primary-body-color);
+}
+
+.nav-link:hover{
+    border: 0.5rem solid var(--primary-font-color);
+    border-radius: 1rem;
+    text-decoration: wavy;
+}
+
+/* footer */
+
+footer{
+    padding-top: 2rem;
+  }
+
+footer p{
+    text-align: center;
+}
+.footer-ul{
+    list-style: none;
+    display:block;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+.footer-li{
+    display: inline;
+}
+
+.footer-link{
+    margin: auto;
+}
+
+/*  Main  index.html */
+
+.main-heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.container{
+    margin: auto;
+    width: 50vw;
+}
+
+label {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    font-size: 28px;
+}
+
+input{
+    margin: auto;
+    display: block;
+    border: 5px solid var(--primary-font-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 50%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+    color: var(--primary-body-color);
+    text-align: center;
+}
+
+.is-triangle-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+    background-color: var(--primary-font-color);
+    color: var(--primary-body-color);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.otp{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/* main quiz.html **/
+
+.quiz-list{
+    font-size: 22px;
+    padding:3rem;
+}
+
+.option-list{
+    text-align: left;
+    
+}
+
+.question{
+    text-align: left;
+    display: inline;
+    width: 20%;
+}
